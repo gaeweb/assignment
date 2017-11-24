@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your IP</title>
+</head>
+<body>
+	<script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function echo(argument) {
+			document.write(argument+'<br>');
+		}
+	</script>
+
+<center>
+	<h1>
+		<!-- CPOS Technology Linited -->
+		LEE KWUN FUNG , Ivan
+	<br>
+Your IP</h1>
+<hr>
+<h2>
+	<style type="text/css">
+		h1 {
+			text-shadow:0px 2px 20px #fff;
+		}
+		td {
+			text-align: center;
+			padding: 10px;
+			box-shadow: 0px 0px 20px grey;
+		}
+	</style>
+
+	<table width="50%" style="width: 50%; ">
+		<tr>
+			<td>
+				Your IP:
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_request())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Your District: 
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_regionName())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Your City:
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_city())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Latitude: <script type="text/javascript">echo(geoplugin_latitude())</script>
+			</td>
+			<td>
+				Longitude: <script type="text/javascript">echo(geoplugin_longitude())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Your Currency Symbol:
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_currencySymbol())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Your Currency Code:
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_currencyCode())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Your Country Name:
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_countryName())</script>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Your Country Code:
+			</td>
+			<td>
+				<script type="text/javascript">echo(geoplugin_countryCode())</script>
+			</td>
+		</tr>
+	</table>
+	
+</h2></center>
+	<hr>
+	 <!-- style="font-size: 8px;bottom: 0px;position: absolute;" -->
+<!-- <small style="bottom: 0px;position: absolute;">
+	<a href="http://www.geoplugin.com/geolocation/" target="_new">IP Geolocation</a> by <a href="http://www.geoplugin.com/" target="_new">geoPlugin</a>
+	<script language="Javascript">
+		// if (geoplugin_currencyCode() != 'USD') {
+			// document.write('('+geoplugin_regionName()+')');
+		// }
+	</script>
+	
+	This product includes GeoLite data created by MaxMind, available from
+  	<a href="http://www.maxmind.com">http://www.maxmind.com</a>.
+</small> -->
+</body>
+</html>
