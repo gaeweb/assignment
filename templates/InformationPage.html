@@ -1,30 +1,35 @@
     <pre style="background-color: transparent;">
-        <table style="color: white;">
+        <table style="color: white">
             <tr>
                 <td>
-                    <h1>
-                        
-                            {{ title }}
-                        
-                        
-                    </h1>
+                    <h3>
+                        {{ titlee }}
+                    </h3>
                     <hr>
-                
                 </td>
             </tr>
             <tr>
-                <td>{{ content }}</td>
+                <td>
+                    {{ predateE }}
+                </td>
+            </tr>
+            <tr>
+                <td>{{ submitdate }}</td>
+            </tr>
+            <tr>
+                <td>{{ presenterorgc }}</td>
             </tr>
             <tr>
                 <td>
-                	<script type="text/javascript">
-                		arr=JSON.parse('{{ json }}');
-                        
-                		for (var i in arr) {
-                			document.write(i+': '+arr[i]);
-                			print(arr[i]);
-                		}
-                	</script>
+                    <a href="{{ tagenturlc }}" style="color: skyblue;" target="_blank">{{ tagenturlc }}</a>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>{{ progtimec }}</td>
+            </tr> -->
+            <tr>
+                <td>
+                    <a href="{{ href }}" style="color: skyblue;" target="_blank">{{ href }}</a>
                 </td>
             </tr>
         </table>

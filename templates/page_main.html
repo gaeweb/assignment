@@ -129,15 +129,21 @@ $.get('/p1',{},function (result) {
 
 
 {% for x in events %}
-      <li onclick='ivan_map("{{ x.titlee }}","{{ x.predateE }}",`{{x.json}}`);' style="cursor: pointer;">
+      <li onclick='ivan_map(
+      "{{ x.titlee }}"
+      ,"{{ x.predateE }}"
+      ,"{{ x.submitdate }}"
+      ,"{{ x.presenterorgc }}"
+      ,"{{ x.tagenturlc }}"
+      ,"{{ x.progtimec }}"
+      ,"{{ x.href }}"
+      );' style="cursor: pointer;">
         <!--  -->
         <div class="media" style="cursor: pointer;">
          <!--  <a href="{{x.href}}" class="media-left"> -->
-          <a href="{{getrequestlink}}" style="cursor: pointer;">
             {% if x.img_src is defined %}
             <img alt="" src="{{x.img_src}}" style="cursor: pointer;">
             {% endif %}
-          </a>
           <div class="media-body" style="cursor: pointer;">
             <!-- <a href="{{x.href}}" class="catg_title">{{x.content}}</a> -->
              <!-- <a href="{{x.getrequestlink}}" class="catg_title"> -->
@@ -158,7 +164,7 @@ $.get('/p1',{},function (result) {
           </div>
         </div>
       </div>
-       <div class="col-lg-4 col-md-4 col-sm-4">
+       <div class="col-lg-4 col-md-4 col-sm-4" style="width: 45%">
         <div class="latest_post" style="">
           <h2 style="background-color: white; box-shadow: 0px 2px 5px #aaa;"><span>Detail</span></h2>
             <script type="text/javascript">
@@ -169,12 +175,24 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
           <div class="latest_post_container" id="ivan_map" style="overflow: hidden;">          
           </div>
           <script type="text/javascript">
-            function ivan_map(title,content,json) {
+            function ivan_map(
+              titlee
+              ,predateE
+              ,submitdate
+              ,presenterorgc
+              ,tagenturlc
+              ,progtimec
+              ,href
+              ) {
               // console.log('begin');
               $.get('/InformationPage/',{
-                'title':title,
-                'content':content,
-                'json':json
+              'titlee':titlee
+              ,'predateE':predateE
+              ,'submitdate':submitdate
+              ,'presenterorgc':presenterorgc
+              ,'tagenturlc':tagenturlc
+              ,'progtimec':progtimec
+              ,'href':href
               },function (result) {
                 // console.log('a');
                 // console.log(result);
@@ -187,38 +205,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div class="col-lg-8 col-md-8 col-sm-8" style="">
+      <div class="col-lg-8 col-md-8 col-sm-8" style=" width: 29%">
         <div class="latest_post">
           <h2 style="background-color: white; box-shadow: 0px 2px 5px #aaa;"><span style="background-color: black; color: white;">Maps</span></h2>
         <div class="slick_slider">

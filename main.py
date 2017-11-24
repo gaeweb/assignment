@@ -95,10 +95,10 @@ class MainHandler(BaseHandler):
 					# ar['xml']=self.xe(x)
 					# print('xml: '+ar['xml'])
 					ar['submitdate']=x.find('submitdate').text.replace("'",'',100).replace('"','',100).replace('\\u','',100)
-					# ar['presenterorgc']=x.find('presenterorgc').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
-					# ar['tagenturlc']=x.find('tagenturlc').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
-					# ar['progtimec']=x.find('progtimec').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
-					# ar['href']=x.find('urlc').text.replace('\u','',100).replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['presenterorgc']=x.find('presenterorgc').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['tagenturlc']=x.find('tagenturlc').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['progtimec']=x.find('progtimec').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['href']=x.find('urlc').text.replace('\u','',100).replace("'",'',100).replace('"','',100).replace('\u','',100)
 
 					
 					# ar['getrequestlink']='InformationPage/?md5='+hashlib.md5(ar['titlee']+ar['predateE']).hexdigest().replace("'",'',100).replace('"','',100).replace('\u','',100)
@@ -106,7 +106,7 @@ class MainHandler(BaseHandler):
 				except Exception as e:
 					# raise e
 					pass
-				ar['json']=self.je(ar)
+				# ar['json']=self.je(ar)
 
 
 				# ar['getrequestlink']='/'+'?'+'titlec'+'='+ar['titlec']+'&'+'titlee'+'='+ar['titlee']+'&'+'predateC'+'='+ar['predateC']+'&'+'predateE'+'='+ar['predateE']

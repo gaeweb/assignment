@@ -14,6 +14,14 @@ class InformationPage(BaseHandler):
 				# raise e
 				# print('')
 				pass
-			self.lp('InformationPage',{'title':self.d('title'),'content':self.d('content'),'json':self.d('json').replace('\n','').replace(' ','')})
+			self.lp('InformationPage',{
+				'titlee':self.d('titlee'),
+				'predateE':self.d('predateE')
+				,'submitdate':self.d('submitdate')
+				,'presenterorgc':self.d('presenterorgc')
+				,'tagenturlc':self.d('tagenturlc')
+				,'progtimec':self.d('progtimec')
+				,'href':self.d('href')
+				})
 		except Exception as e:
 			raise e
