@@ -8,17 +8,18 @@ from InformationPage import *
 
 class MainHandler(BaseHandler):
 	def get(self):
+		self.ini()
 
-		def getRequestParameter(parameters):
-			string='?'
-			isBegin=False
-			for x in parameters:
-				if isBegin:
-					string+='&'
-				string+=x[0]+'='+x[1]
-				isBegin=True
-			print(string)
-			return string
+	def getRequestParameter(parameters):
+		string='?'
+		isBegin=False
+		for x in parameters:
+			if isBegin:
+				string+='&'
+			string+=x[0]+'='+x[1]
+			isBegin=True
+		print(string)
+		return string
 		# print(str(self))
 		# print(vars(self))
 		# print(vars(self.request))
@@ -27,6 +28,7 @@ class MainHandler(BaseHandler):
 		Place=[]
 		c=0
 		data=''
+		
 		def request_1():
 			ses_Num='1'
 			if self.session[ses_Num]!=None:
