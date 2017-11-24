@@ -9,7 +9,7 @@ License: GPL
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 html{background-color: black;color: white;}
-body{background:#f5f5f5}
+body{background:#333}
 ul{padding:0; margin:0; list-style:none}
 a{text-decoration:none; color:#2f2f2f}
 a:hover{color:#646464; text-decoration:none}
@@ -45,7 +45,7 @@ img:hover{opacity:0.75}
 .btn-theme{background-color:#d083cf; color:#fff}
 .btn-theme:hover{background-color:#ce39cc; color:#fff}
 .transition{-webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
-#preloader{position:fixed; top:0; left:0; right:0; bottom:0; background-color:#fff; z-index:99999}
+#preloader{position:fixed; top:0; left:0; right:0; bottom:0; background-color:#222; z-index:99999}
 #status{width:200px; height:200px; position:absolute; left:50%; top:50%; background-image:url(images/status.gif); background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px}
 .scrollToTop{bottom: 105px;
     display: none;
@@ -79,7 +79,7 @@ img:hover{opacity:0.75}
 .top_nav li a:hover{background-color:#d083cf}
 .header_top_right{float:left; display:inline; width:50%; text-align:right}
 .header_top_right > p{color:#fff; display:inline-block; float:right; font:bold 12px sans-serif; margin-bottom:0; padding-bottom:20px; padding-right:8px; padding-top:20px}
-.header_bottom{background-color:#fff; display:inline; float:left; padding:15px 30px 15px; width:100%}
+.header_bottom{background-color:#222; display:inline; float:left; padding:15px 30px 15px; width:100%}
 .logo_area{display:inline; float:left; width:31%}
 .logo{font-size:45px; font-weight:bold; color:#000; font-family:'ABeeZee',sans-serif}
 .logo img{max-width:100%}
@@ -87,7 +87,7 @@ img:hover{opacity:0.75}
 .logo > span{ margin-left:-14px}
 .add_banner{float:right; width:728px; height:90px}
 .add_banner img{width:100%; height:100%}
-#navArea{float:left; display:inline; width:100%; padding:0 30px; background-color:#fff}
+#navArea{float:left; display:inline; width:100%; background-color:#222}
 .navbar{border:medium none; border-radius:0}
 .navbar-inverse .navbar-nav > li > a{border-left:1px solid #383838; color:#ddd; font-family:'ABeeZee'; display:inline-block; height:50px; line-height:50px; padding:0 14px; text-shadow:0 1px 1px #000; text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .navbar-inverse .navbar-nav > li:first-child a{border:none}
@@ -100,9 +100,9 @@ img:hover{opacity:0.75}
 .dropdown-menu{background-color:#222}
 .dropdown-menu > li > a{clear:both; color:#ddd; background-color:#222; padding:10px 20px; font-family:'ABeeZee'; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#fff}
-#newsSection{float:left; display:inline; width:100%; padding:0 5px; background-color:#fff; padding-bottom:20px}
-.latest_newsarea{float:left; display:inline; width:100%; background-color:white; position:relative}
-.latest_newsarea span{border-radius: 25px; box-shadow: 0px 5px 15px white; color:#fff; font-family:'ABeeZee'; font-size:15px; left:0; line-height:1.8em; margin-right:20px; overflow:hidden; padding:2px 18px 1px 19px; position:absolute; z-index:15}
+#newsSection{float:left; display:inline; width:100%; padding:0 5px; background-color:#222; padding-bottom:20px}
+.latest_newsarea{float:left; display:inline; width:100%; background-color:#222; position:relative}
+.latest_newsarea span{border-radius: 25px; color:#fff; font-family:'ABeeZee'; font-size:15px; left:0; line-height:1.8em; margin-right:20px; overflow:hidden; padding:2px 18px 1px 19px; position:absolute; z-index:15}
 .social_area{ position:absolute; right:0; top:0; background:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-right:1px solid #ccc; height:31px}
 .social_nav{ text-align:right}
 .social_nav li{ display:block; float:left}
@@ -123,7 +123,7 @@ img:hover{opacity:0.75}
 .social_nav li.youtube a:hover{ background-position:-180px 0px; background-size:270px 60px; background-color:#e32114}
 .social_nav li.mail a{ background-image:url("images/socials.png"); background-position:-240px -30px; background-size:270px 60px; width:32px}
 .social_nav li.mail a:hover{background-position:-240px 0px; background-size:270px 60px; background-color:#bc75d6}
-#sliderSection{margin-top: 5px; margin-bottom: 5px; box-shadow: 0px 5px 15px rgba(0,0,0,0.2);background-color:#fff; display:inline; float:left; width:100%; padding:0 5px; height: 100%}
+#sliderSection{margin-top: 5px; margin-bottom: 5px; box-shadow: 0px 5px 15px rgba(0,0,0,0.2);background-color:#222; display:inline; float:left; width:100%; padding:0 5px; height: 100%}
 .single_iteam{display:inline; float:left; position:relative; width:100%; height:448px}
 .single_iteam img{width:100%; height:100%}
 .single_iteam img:hover{opacity:1}
@@ -145,7 +145,7 @@ img:hover{opacity:0.75}
 .latest_post_container:hover #prev-button, .latest_post_container:hover #next-button{display:block}
 #prev-button{margin-top: 10px; cursor:pointer; font-size:20px; left:0; position:absolute; text-align:center; top:-10px; width:100%; display:none}
 #next-button{cursor:pointer; display:none; font-size:20px; left:0; position:absolute; text-align:center; bottom:0; width:100%}
-#contentSection{float:left; display:inline; width:100%; background-color:#fff; padding:0 30px}
+#contentSection{float:left; display:inline; width:100%; background-color:#222; padding:0 30px}
 .left_content{float:left; display:inline; width:100%}
 .single_post_content{float:left; display:inline; width:100%; margin-bottom:20px}
 .single_post_content > h2{background:none repeat scroll 0 0 #151515; color:#fff; font-family:'ABeeZee'; font-size:18px; font-weight:400; margin-bottom:10px; margin-left:0; margin-top:5px; padding:0; position:relative; text-align:center; text-transform:uppercase; margin-bottom:20px}
@@ -226,7 +226,7 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 .developer{float:right; width:50%; text-align:right; padding-top:5px; color:#222}
 .developer a{color:#222}
 .catgArchive{border:medium none; color:#fff; display:inline; float:left; font-weight:bold; padding:10px 15px; width:100%; margin-top:15px}
-.catgArchive option{background-color:#fff; font-weight:normal; padding:5px; color:#d083cf}
+.catgArchive option{background-color:#222; font-weight:normal; padding:5px; color:#d083cf}
 .nav-tabs > li{display:inline-block; float:none; width:32.55%}
 .nav-tabs{ text-align:center}
 .pagination > li > a, .pagination > li > span{background-color:#000; border:1px solid #000; color:#eee; margin-right:5px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}

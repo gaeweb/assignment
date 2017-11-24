@@ -5,9 +5,10 @@
 
 <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://apis.google.com/js/platform.js" async defer></script>  
   <script type="text/javascript">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
- <script src="https://apis.google.com/js/platform.js" async defer></script>    
+    </script>
+  
  <meta name="google-signin-client_id" content="407781355770-pngmp6s3gacp6334e841rq596kkbjrhm.apps.googleusercontent.com">
   <script type="text/javascript">
     function echo(argument) {
@@ -48,6 +49,26 @@
 <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+<style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #222;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
 <style type="text/css">
   /*html,body{background-color: black;color: white;}*/
 
@@ -56,7 +77,7 @@
 <style type="text/css">
 
   input {
-    color: black;
+    color: #fff;
   }
 
 /* google login css */
@@ -81,7 +102,7 @@
   <div id="status">&nbsp;</div>
 </div>
  -->
- <body style="font-family: 'ABeeZee';">
+ <body style="font-family: 'ABeeZee';" onload="onSignIn(GoogleUser)">
 
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 <div class="container">
@@ -105,7 +126,7 @@
         <div class="header_bottom">
           <div class="logo_area">
             <!-- 康文署情報站 -->
-            <h1 style="color: black;">Leisure and Cultural Services Department</h1>
+            <h1 style="color: #fff;">Leisure and Cultural Services Department</h1>
             <!-- <a href="index.html" class="logo"><img src="images/logo.jpg" alt=""></a> -->
           </div>
 
@@ -114,7 +135,7 @@
 <!--       google login button       -->
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
-  <table width="50%" style="width: 50%;color: black;">
+<!--   <table width="50%" style="width: 50%;color: black;">
     <tr>
       <td>
         Your IP:
@@ -155,7 +176,7 @@
         <script type="text/javascript">echo(geoplugin_countryName())</script>
       </td>
     </tr>
-  </table>
+  </table> -->
 
             <!-- <a href="#"><img src="images/addbanner_728x90_V1.jpg" alt=""></a> -->
           </div>
@@ -187,8 +208,9 @@
   })();
 </script>
 <div class="googleSearch">
-  <gcse:search style="color: black;">
+  <gcse:search style="color: #fff;">
     Search
+    <div style="background-color: #222;"></div>
   </gcse:search>
 </div>
   </li>

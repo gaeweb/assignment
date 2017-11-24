@@ -8,7 +8,7 @@
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:skyblue}
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:black;}
 .latest_newsarea span{background:none repeat scroll 0 0 black}
-.latest_post > h2 span{background: none repeat scroll 0 0 white; border-radius: 25px; color: black; box-shadow: 0px 3px 5px #aaa;}
+.latest_post > h2 span{background: none repeat scroll 0 0 white; border-radius: 25px; color: black;}
 #prev-button{color:black}
 #next-button{color:black}
 .single_post_content > h2 span{background:none repeat scroll 0 0 black}

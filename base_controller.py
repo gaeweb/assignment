@@ -109,6 +109,16 @@ import urllib2 as urllib
 
 import json
 class BaseHandler(webapp2.RequestHandler):
+	def dispatch(self):								 # override dispatch
+		# Get a session store for this request.
+		self.session_store = sessions.get_store(request=self.request)
+		try:
+			# Dispatch the request.
+			webapp2.RequestHandler.dispatch(self)	   # dispatch the main handler
+		finally:
+			# Save all sessions.
+			self.session_store.save_sessions(self.response)
+
 	def p(self,str):
 		self.response.out.write(str)
 	def ini(self):
@@ -124,6 +134,7 @@ class BaseHandler(webapp2.RequestHandler):
 	@webapp2.cached_property
 	def session(self):
 		return self.session_store.get_session()
+
 	def s(self,k='',v=''):
 		if v=='':
 			self.session.get(k)
@@ -182,7 +193,8 @@ class BaseHandler(webapp2.RequestHandler):
 			content = urllib.urlopen(url).read()
 			return content
 		except Exception:
-			msg_error = 'URL Error occurred'
+			# msg_error = 'URL Error occurred'
+			return self.getRequest(url)
 
 	def gr(self,url):
 		return self.getRequest(url)
