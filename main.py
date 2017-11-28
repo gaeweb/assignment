@@ -89,21 +89,16 @@ class MainHandler(BaseHandler):
 					break
 				ar={}
 				try:
-					ar['titlee']=x.find('titlee').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['predateE']=x.find('predateE').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
+					ar['titlee']=x.find('titlee').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['predateE']=x.find('predateE').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
 
 					# ar['xml']=self.xe(x)
 					# print('xml: '+ar['xml'])
-					ar['submitdate']=x.find('submitdate').text.replace("'",'',100).replace('"','',100).replace('\\u','',100).replace('\n','',100)
-					ar['presenterorgc']=x.find('presenterorgc').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['tagenturlc']=x.find('tagenturlc').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['progtimec']=x.find('progtimec').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['href']=x.find('urlc').text.replace('\u','',100).replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-
-					ar['pricee']=x.find('presenterorgc').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['remarkc']=x.find('tagenturlc').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['remarke']=x.find('progtimec').text.replace("'",'',100).replace('"','',100).replace('\u','',100).replace('\n','',100)
-					ar['enquiry']=x.find('urlc').text.replace('\u','',100).replace("'",'',100).replace('"','',100).replace('\n','',100)
+					ar['submitdate']=x.find('submitdate').text.replace("'",'',100).replace('"','',100).replace('\\u','',100)
+					ar['presenterorgc']=x.find('presenterorgc').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['tagenturlc']=x.find('tagenturlc').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['progtimec']=x.find('progtimec').text.replace("'",'',100).replace('"','',100).replace('\u','',100)
+					ar['href']=x.find('urlc').text.replace('\u','',100).replace("'",'',100).replace('"','',100).replace('\u','',100)
 
 					
 					# ar['getrequestlink']='InformationPage/?md5='+hashlib.md5(ar['titlee']+ar['predateE']).hexdigest().replace("'",'',100).replace('"','',100).replace('\u','',100)
