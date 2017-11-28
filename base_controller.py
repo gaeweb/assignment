@@ -122,9 +122,9 @@ class BaseHandler(webapp2.RequestHandler):
 	def p(self,str):
 		self.response.out.write(str)
 	def ini(self):
-		u=self.google_users()
+		# u=self.google_users()
 		self.loadPage('menu',{})
-		return u
+		# return u
 	# def dispatch(self):
 	# 	self.session_store = sessions.get_store(request=self.request)
 	# 	try:

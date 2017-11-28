@@ -1,5 +1,455 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
+  <event id="88817">
+    <titlec><![CDATA[「祝福亞洲」中、港、台、澳藝術家聯展]]></titlec>
+    <titlee><![CDATA["Bless Asia" - Art Exhibition by Artists from China, Hong Kong, Taiwan & Macau]]></titlee>
+    <cat1><![CDATA[inc7]]></cat1>
+    <cat2><![CDATA[inc7sc3]]></cat2>
+    <predateC><![CDATA[19/12/2017 (星期二) 6pm-8pm; 20/12/2017 (星期三) - 25/12/2017 (星期一) 10am-8pm;  26/12/2017 (星期二) 10am-5pm]]></predateC>
+    <predateE><![CDATA[19/12/2017 (Tue) 6pm-8pm; 20/12/2017 (Wed) - 25/12/2017 (Mon) 10am-8pm;  26/12/2017 (Tue) 10am-5pm]]></predateE>
+    <progtimec><![CDATA[不適用]]></progtimec>
+    <progtimee><![CDATA[Not Applicable]]></progtimee>
+    <venueid><![CDATA[6210646]]></venueid>
+    <agelimitc />
+    <agelimite />
+    <pricec><![CDATA[免費入場 (先到先得)]]></pricec>
+    <pricee><![CDATA[Free admission (first-come-first-served)]]></pricee>
+    <descc />
+    <desce />
+    <urlc><![CDATA[http://www.lcsd.gov.hk/tc/programmes/programmeslist/culture/searchcprogdetails.php?id=88817]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/en/programmes/programmeslist/culture/searchcprogdetails.php?id=88817]]></urle>
+    <tagenturlc />
+    <tagenturle />
+    <remarkc><![CDATA[展覽館 2-5]]></remarkc>
+    <remarke><![CDATA[Exhibition Gallery 2-5]]></remarke>
+    <enquiry><![CDATA[9836 6147]]></enquiry>
+    <fax />
+    <email />
+    <saledate />
+    <interbook />
+    <presenterorgc><![CDATA[藝術家搖籃有限公司主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Organised by the Artist Cradle Co. Limited]]></presenterorge>
+    <prog_image />
+    <detail_image1 />
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-11-27 10:29:11.000]]></submitdate>
+  </event>
+  <event id="87328">
+    <titlec><![CDATA[《音樂調色盤》]]></titlec>
+    <titlee><![CDATA["Color Symphony"]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc1]]></cat2>
+    <predateC><![CDATA[2017年12月21日至22日 (四至五) 下午2:15, 下午4:30, 晚上7:30]]></predateC>
+    <predateE><![CDATA[21-22 Dec 2017 (Thu-Fri) 2:15pm, 4:30pm, 7:30pm]]></predateE>
+    <progtimec><![CDATA[50分鐘]]></progtimec>
+    <progtimee><![CDATA[50mins]]></progtimee>
+    <venueid><![CDATA[87112562]]></venueid>
+    <agelimitc />
+    <agelimite />
+    <pricec><![CDATA[$170]]></pricec>
+    <pricee><![CDATA[$170]]></pricee>
+    <descc />
+    <desce />
+    <urlc><![CDATA[http://www.pureboxtheatre.wixsite.com/home]]></urlc>
+    <urle><![CDATA[http://www.pureboxtheatre.wixsite.com/home]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc />
+    <remarke />
+    <enquiry><![CDATA[9579 1414]]></enquiry>
+    <fax />
+    <email />
+    <saledate />
+    <interbook><![CDATA[Y]]></interbook>
+    <presenterorgc><![CDATA[童真小盒主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Pure Box]]></presenterorge>
+    <prog_image />
+    <detail_image1 />
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-10-31 02:17:22.000]]></submitdate>
+  </event>
+  <event id="87329">
+    <titlec><![CDATA[《音樂調色盤》]]></titlec>
+    <titlee><![CDATA["Color Symphony"]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc1]]></cat2>
+    <predateC><![CDATA[2017年12月23日至25日 (六至一) 上午11:00, 下午2:15,下午4:30, 2017年12月23日至24日 (六至日) 晚上7:30]]></predateC>
+    <predateE><![CDATA[23-25 Dec 2017 (Sat–Mon) 11:00am, 2:15pm, 4:30pm, 23-24 Dec 2017 (Sat-Sun) 7:30pm]]></predateE>
+    <progtimec><![CDATA[50分鐘]]></progtimec>
+    <progtimee><![CDATA[50mins]]></progtimee>
+    <venueid><![CDATA[87112562]]></venueid>
+    <agelimitc />
+    <agelimite />
+    <pricec><![CDATA[$195]]></pricec>
+    <pricee><![CDATA[$195]]></pricee>
+    <descc />
+    <desce />
+    <urlc><![CDATA[http://www.pureboxtheatre.wixsite.com/home]]></urlc>
+    <urle><![CDATA[http://www.pureboxtheatre.wixsite.com/home]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc />
+    <remarke />
+    <enquiry><![CDATA[9579 1414]]></enquiry>
+    <fax />
+    <email />
+    <saledate />
+    <interbook><![CDATA[Y]]></interbook>
+    <presenterorgc><![CDATA[童真小盒主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Pure Box]]></presenterorge>
+    <prog_image />
+    <detail_image1 />
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-10-31 02:16:54.000]]></submitdate>
+  </event>
+  <event id="86245">
+    <titlec><![CDATA[《X聖治》─ 影評人之選2017]]></titlec>
+    <titlee><![CDATA["Cure" - Critics' Choice 2017]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc5]]></cat2>
+    <predateC><![CDATA[2017年12月10日 (日) 下午2:30 及2017年12月17日 (日) 下午2:30]]></predateC>
+    <predateE><![CDATA[10 Dec 2017 (Sun) 2:30pm and 17 Dec 2017 (Sun) 2:30pm]]></predateE>
+    <progtimec><![CDATA[111分鐘]]></progtimec>
+    <progtimee><![CDATA[111 min]]></progtimee>
+    <venueid><![CDATA[75010017]]></venueid>
+    <agelimitc><![CDATA[只限6歲或以上人士]]></agelimitc>
+    <agelimite><![CDATA[Only for age 6 or above]]></agelimite>
+    <pricec><![CDATA[$55]]></pricec>
+    <pricee><![CDATA[$55]]></pricee>
+    <descc><![CDATA[命案一一發生，死者的頸部都有「X」型的傷痕。案發前，行兇者的生活都看似幸福，沒有殺人動機，但都清楚知道自己殺人的行為。刑警高部賢一負責調查案件的同時，亦要面對有失憶精神問題的愛妻，背負雙重壓力。調查指向一名自稱失憶的青年間宮邦彥，涉案者犯案前皆曾與他接觸。二人與間宮接觸後，高部和他的心理學家朋友佐間久與間宮接觸後，讓他們愈來愈接近案件的真相，但卻同時逐步墮入精神異常的邊緣狀態。黑澤清將都市壓力透過催眠傳換擴大，為影片鋪奠了神秘、冷峻的調色。]]></descc>
+    <desce><![CDATA[The city is struck by serial homicide in which all victims have X-shaped neck wounds. Before committing the murders, each murderer is leading a happy life and no motive can be established, yet each of them is fully conscious on the atrocious acts they’ve done. Detective Takabe is assigned to the case but he is under extra pressure because his wife has a neurotic amnesia condition. All traces point to Mamiya, a young man who claims to be amnesiac. He is the only common link among the murderers. Takabe takes his psychologist buddy Sakuma to see Mamiya, but after the encounter, Takabe and Sakuma gradually lose their grip and sink into an isolated mental edge, despite getting nearer to the secret behind the homicides. Kiyoshi Kurosawa transforms and expands the stress of city life by way of hypnosis, resulting in a mysterious but chilly tone of this film that shoots Kurosawa into worldwide fame.]]></desce>
+    <urlc><![CDATA[http://www.lcsd.gov.hk/fp/zh_TW/web/fpo/programmes/coo/film04.html]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/fp/en_US/web/fpo/programmes/coo/film04.html]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc><![CDATA[2017年12月10日設映後座談會，粵語主講講者：吳月華 及2017年12月17日設映後座談會，粵語主講講者：尹婉萍（註冊社工，精於催眠治療）、 吳月華]]></remarkc>
+    <remarke><![CDATA[Post-screening seminar with Stephanie Ng in Cantonese on 10 Dec 2017 andPost-screening seminar with Wan Yuen-ping (Registered Social Worker. Proficient in Hypnotherapy) and Stephanie Ng in Cantonese on 17 Dec 2017]]></remarke>
+    <enquiry><![CDATA[2734 2900]]></enquiry>
+    <fax />
+    <email />
+    <saledate><![CDATA[2017-09-15 12:09:00.000]]></saledate>
+    <interbook><![CDATA[N]]></interbook>
+    <presenterorgc><![CDATA[康樂及文化事務署主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Leisure and Cultural Services Department]]></presenterorge>
+    <prog_image><![CDATA[http://www.lcsd.gov.hk/crs/images/thumbnail/P86245_1.jpg]]></prog_image>
+    <detail_image1><![CDATA[http://www.lcsd.gov.hk/crs/images/detail/P86245_2.jpg]]></detail_image1>
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-09-15 12:56:46.000]]></submitdate>
+  </event>
+  <event id="87751">
+    <titlec><![CDATA[《海的抱抱》展覽]]></titlec>
+    <titlee><![CDATA["Deep in the Sea" Exhibition]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc4]]></cat2>
+    <predateC><![CDATA[2018年1月30日至2月10日 (一至日) 中午12:00至晚上7:30, 2018年2月11日 (日)中午12:00至下午3:00]]></predateC>
+    <predateE><![CDATA[30 Jan-10 Feb 2018 (Mon-Sun) 12nn-7:30pm, 11 Feb 2018 (Sun) 12:00nn-3:00pm]]></predateE>
+    <progtimec><![CDATA[請看上述展覽時間]]></progtimec>
+    <progtimee><![CDATA[Please refer to the above exhibition time]]></progtimee>
+    <venueid><![CDATA[87210195]]></venueid>
+    <agelimitc />
+    <agelimite />
+    <pricec><![CDATA[免費入場（不設門票）]]></pricec>
+    <pricee><![CDATA[Free admission (Tickets not required)]]></pricee>
+    <descc />
+    <desce />
+    <urlc><![CDATA[http://www.mingri.org.hk]]></urlc>
+    <urle><![CDATA[http://www.mingri.org.hk]]></urle>
+    <tagenturlc />
+    <tagenturle />
+    <remarkc><![CDATA[康樂及文化事務署贊助]]></remarkc>
+    <remarke><![CDATA[Sponsored by the Leisure and Cultural Services Department]]></remarke>
+    <enquiry><![CDATA[2742 2966]]></enquiry>
+    <fax />
+    <email />
+    <saledate />
+    <interbook />
+    <presenterorgc><![CDATA[明日藝術教育機構主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Ming Ri Institute for Arts Education]]></presenterorge>
+    <prog_image />
+    <detail_image1 />
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-11-01 12:59:11.000]]></submitdate>
+  </event>
+  <event id="79425">
+    <titlec><![CDATA[「點只旗杆屋咁簡單」導賞系列 - 遊古蹟 · 賞六大茶類導賞團 (粵語/英語/普通話)]]></titlec>
+    <titlee><![CDATA["Getting to Know More About Flagstaff House" Docent Series  - Visit our Heritage & Appreciate Six Types of Tea Docent Tour  (Cantonese/English/Putonghua)]]></titlee>
+    <cat1><![CDATA[inc6]]></cat1>
+    <cat2><![CDATA[inc6sc2]]></cat2>
+    <predateC><![CDATA[2017年12月3, 10, 17, 24, 31日 (日) 上午 11:00 至 下午 12:00 及 下午 3:00 至 4:00]]></predateC>
+    <predateE><![CDATA[3, 10, 17, 24, 31 Dec (Sun) 11:00am - 12:00nn & 3:00pm - 4:00pm]]></predateE>
+    <progtimec><![CDATA[1 小時]]></progtimec>
+    <progtimee><![CDATA[1 Hr]]></progtimee>
+    <venueid><![CDATA[596]]></venueid>
+    <agelimitc />
+    <agelimite />
+    <pricec />
+    <pricee />
+    <descc><![CDATA[昔日的旗杆屋是香港三軍司令官邸，今天它卻是一所展示茶具、石刻、古物等的博物館，充滿著中國文化藝術氛圍。您對旗干屋好奇嗎? 您對中國藝術有興趣嗎?導賞員會透過一系列的活動，讓您認識杆屋的演變，還帶您欣賞珍貴的瑰寶。請隨心意，選擇您的導賞之旅，讓一家大小渡過一個難忘的週日!]]></descc>
+    <desce><![CDATA[Flagstaff House in the old days was the office and residence of the Commander of British Forces in Hong Kong. Today, it is a museum full of Chinese art and cultural atmosphere where tea ware, seal carving, artefact etc. are on display. Do you want to know more about the Flagstaff House? Are you interested in Chinese art? Our museum docents will tell you the development of Flagstaff House and bring you to see the treasures through this series of tour. Just pick your own choice and share your family with an unforgettable weekend！]]></desce>
+    <urlc><![CDATA[http://www.lcsd.gov.hk/CE/Museum/Arts/zh_TW/web/ma/home.html]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/CE/Museum/Arts/en_US/web/ma/home.html]]></urle>
+    <tagenturlc />
+    <tagenturle />
+    <remarkc><![CDATA[普通話: 2017.12.31 (星期日) 11:00am - 12:00nn, 英語: 2017.12.31 (星期日) 3:00 – 4:00pm, 茶具文物館地下, 每節名額12位，可致電2869 0690預約]]></remarkc>
+    <remarke><![CDATA[Putonghua: 2017.12.31 (Sun) 11:00am - 12:00nn, English: 2017.12.31 (Sun) 3:00 – 4:00pm,Flagstaff House Museum of Tea Ware (G/F), 12 seats per session, please call 2869 0690 for reservation]]></remarke>
+    <enquiry />
+    <fax />
+    <email />
+    <saledate />
+    <interbook />
+    <presenterorgc><![CDATA[茶具文物館]]></presenterorgc>
+    <presenterorge><![CDATA[Flagstaff House Museum of Tea Ware]]></presenterorge>
+    <prog_image />
+    <detail_image1 />
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app />
+    <submitdate><![CDATA[2017-09-27 02:46:07.000]]></submitdate>
+  </event>
+  <event id="87332">
+    <titlec><![CDATA[《下一秒我就憎你》]]></titlec>
+    <titlee><![CDATA["Hate You in A Second"]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc6]]></cat2>
+    <predateC><![CDATA[2017年12月1至3日、5至10日 (二至日) 晚上8:00, 2017年12月2至3日、9至10日 (六至日) 下午3:00]]></predateC>
+    <predateE><![CDATA[1-3, 5-10 Dec 2017 (Fri-Sun) 8:00pm;2-3, 9-10 Dec 2017 (Sat-Sun) 3:00pm]]></predateE>
+    <progtimec><![CDATA[2小時]]></progtimec>
+    <progtimee><![CDATA[2hr]]></progtimee>
+    <venueid><![CDATA[87110023]]></venueid>
+    <agelimitc><![CDATA[適合6歲或以上人士觀看]]></agelimitc>
+    <agelimite><![CDATA[Aged 6 or above]]></agelimite>
+    <pricec><![CDATA[$360, 280, 220 (2017年12月1至2日、8至10日晚上8:00及2017年12月2至3日、9至10日下午3:00); $340, 260, 200 (2017年12月3日及5至7日晚上8:00)]]></pricec>
+    <pricee><![CDATA[$360, 280, 220 (1-2, 8-10 Dec 2017 8pm & 2-3, 9-10 Dec 2017 3pm); $340, 260, 200 (3, 5-7 Dec 2017 8pm)]]></pricee>
+    <descc><![CDATA[《下一秒我就憎你》
+Hate You in A Second    繼《小人國6》《開關係》《男男女女男》
+W創作社 「全員憎恨 以恨說愛」    Ｗ創作社 X 梁祖堯 X 邵美君 X 湯駿業 X 白只 X 韋羅莎   愛與不愛，兩邊也是死路！情緒即將爆發...   有沒有想過：恨也可以是一種互相牽引的關係……有時候甚至比愛更加深刻！
+而且，真正的愛也會包含「憎恨」？所謂的愛，有時候就是包容對方的缺點、忍受互相的折磨？  W創作社繼《小人國6》《開關係》《男男女女男》，再次打破常規，以恨說愛！
+《下一秒我就憎你》由黃智龍執導、黃智龍與小說家月巴氏合編，演員梁祖堯、邵美君、湯駿業、白只、韋羅莎、鄧世昌及梁嘉進...全員憎恨！各有各的憎恨對象和原因！將於12月1日起在葵青劇院演藝廳公演！    
+    粵語演出]]></descc>
+    <desce><![CDATA[“Hate You In A Second” is the latest drama production by W Theatre, directed by Wong Chi-lung, co-written by Wong Chi-lung and Fat Moon Ba, starring Joey Leung, Shaw Mei-Kwan, Edmond Tong, Michael Ning and Rosa Velasco. 
+    In Cantonese]]></desce>
+    <urlc><![CDATA[http://www.wtheatre.org.hk]]></urlc>
+    <urle><![CDATA[http://www.wtheatre.org.hk]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc />
+    <remarke />
+    <enquiry><![CDATA[9267 2678]]></enquiry>
+    <fax />
+    <email />
+    <saledate><![CDATA[2017-10-09 12:10:00.000]]></saledate>
+    <interbook><![CDATA[Y]]></interbook>
+    <presenterorgc><![CDATA[W創作社主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by W Theatre]]></presenterorge>
+    <prog_image><![CDATA[http://www.lcsd.gov.hk/crs/images/thumbnail/P87332_1.jpg]]></prog_image>
+    <detail_image1><![CDATA[http://www.lcsd.gov.hk/crs/images/detail/P87332_2.jpg]]></detail_image1>
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-10-31 02:16:14.000]]></submitdate>
+  </event>
+  <event id="86246">
+    <titlec><![CDATA[《女巫》─ 影評人之選2017]]></titlec>
+    <titlee><![CDATA["Häxan" - Critics' Choice 2017]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc5]]></cat2>
+    <predateC><![CDATA[2018年1月6日 (六) 下午2:30 及2018年1月20日 (六) 晚上7:00]]></predateC>
+    <predateE><![CDATA[6 Jan 2018 (Sat) 2:30pm and 20 Jan 2018 (Sat) 7:00pm]]></predateE>
+    <progtimec><![CDATA[106分鐘]]></progtimec>
+    <progtimee><![CDATA[106 min]]></progtimee>
+    <venueid><![CDATA[75010017]]></venueid>
+    <agelimitc><![CDATA[只限6歲或以上人士]]></agelimitc>
+    <agelimite><![CDATA[Only for age 6 or above]]></agelimite>
+    <pricec><![CDATA[$55]]></pricec>
+    <pricee><![CDATA[$55]]></pricee>
+    <descc><![CDATA[這部默片經典，運用冷靜的態度、豐富的論述、怪誕的影像，詮釋中世紀巫術和女巫故事，曖昧神秘不下於其題材。丹麥電影大師基斯登遜以創新著稱，此片即混合紀錄和劇情多樣形式。導演第一身敘述，聲明為文化歷史探索之作。用圖像模型追溯人類迷信，重演各式獵巫個案，有詼諧和無知的浮世繪，有狂熱和恐懼造成的奇情冤案。宗教法庭殘酷逼供據實展現，被控者告白化為影像，魔鬼淫亂煉術，觸目驚心。最後用現代科學解釋，女巫或為心理病患，但弱者處境古今何異？影片洋洋大觀，光怪陸離，理性的框架充滿肆意的想像，恍如神秘學文獻，被譽為超現實主義電影先鋒作，面世近百年來，顛覆和趣味依然獨到。今次特別獻映瑞典電影資料館2017年修復版本。]]></descc>
+    <desce><![CDATA[This silent film classic uses a sense of composure, rich narratives, and grotesque visuals to interpret stories of mediaeval witchcrafts and witches,presenting a mystic ambiguity no less than the subject matter itself. Danish film master Benjamin Christensen was known for his innovation, as proven by Häxan’s hybrid form of dramadocumentary, and its cultural and historical exploration as declared through the director’s own narration. With graphics and models the film studies superstition through re-enacting different examples of witch-hunts that were ukiyo-e of humour and ignorance, or bizarre cases of injustice caused by fanaticism andfear. Authentic depiction of religious authorities’ torturous interrogation, confession by the accused and devilish witches’ sabbath rituals are all too shocking and dreadful to bear. The film finalizes with modern science to interpret acts of witchcraft as mental illness. Has the plight of the socially weak ever changed now andthen? A spectacular panorama of peculiarity and bold imagination built under a rational framework as if a piece of occultism literature, the film is regarded as a pioneer in surrealist cinema, which is still subversive and unique as it was released almost a century ago. The Swedish Film Institute 2017 restored edition will be used for the screening programme.]]></desce>
+    <urlc><![CDATA[http://www.lcsd.gov.hk/fp/zh_TW/web/fpo/programmes/coo/film05.html]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/fp/en_US/web/fpo/programmes/coo/film05.html]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc><![CDATA[2018年1月6日設映後座談會，粵語主講講者：劉嶔2018年1月20日設映後座談會，粵語主講講者：家明（影評人）、 劉嶔]]></remarkc>
+    <remarke><![CDATA[Post-screening seminar with Lau Yam in Cantonese on 6 Jan 2018 andPost-screening seminar with Fung Ka-ming (Film Critic) and Lau Yam in Cantonese on 20 Jan 2018]]></remarke>
+    <enquiry><![CDATA[2734 2900]]></enquiry>
+    <fax />
+    <email />
+    <saledate><![CDATA[2017-09-15 12:09:00.000]]></saledate>
+    <interbook><![CDATA[N]]></interbook>
+    <presenterorgc><![CDATA[康樂及文化事務署主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Leisure and Cultural Services Department]]></presenterorge>
+    <prog_image><![CDATA[http://www.lcsd.gov.hk/crs/images/thumbnail/P86246_1.jpg]]></prog_image>
+    <detail_image1><![CDATA[http://www.lcsd.gov.hk/crs/images/detail/P86246_2.jpg]]></detail_image1>
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-09-15 12:51:12.000]]></submitdate>
+  </event>
+  <event id="88571">
+    <titlec><![CDATA[《雙妹嘜魔幻迷你聖誕》─ 聖誕電影合家歡2017]]></titlec>
+    <titlee><![CDATA["Jill and Joy’s Winter" - Christmas Family Screen 2017]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc5]]></cat2>
+    <predateC><![CDATA[2017年12月23日 (六) 晚上7:30,2017年12月30日 (六) 晚上7:30,2017年12月31日 (日) 早上11:30,]]></predateC>
+    <predateE><![CDATA[23 Dec 2017 (Sat) 7:30pm,30 Dec 2017 (Sat) 7:30pm,31 Dec 2017 (Sun) 11:30am]]></predateE>
+    <progtimec><![CDATA[節目全長約81分鐘]]></progtimec>
+    <progtimee><![CDATA[Approximate running time: 81 min]]></progtimee>
+    <venueid><![CDATA[75010017]]></venueid>
+    <agelimitc><![CDATA[只限3歲或以上人士]]></agelimitc>
+    <agelimite><![CDATA[Only for age 3 or above]]></agelimite>
+    <pricec><![CDATA[$60]]></pricec>
+    <pricee><![CDATA[$60]]></pricee>
+    <descc><![CDATA[你有否想像過《大人國與小人國》的情節發生在你身上？聖誕將至，一架如鞋盒般細小的汽車來到雙妹嘜珍兒和彩伊的家門前，從車裏走出來的是一個無家可歸的迷你家庭！兩位女孩邀請他們到家中暫住，可是有些大人卻對迷你訪客心懷不軌。幸好，在魔法師鄰居和正義警長夫婦幫忙下，她們展開了難忘的歷險，更與迷你家庭共度一個魔幻的小小聖誕派對！]]></descc>
+    <desce><![CDATA[What would you do if some cutey mini-sized humans come knock on your door at Christmas time? One December evening, a shoebox-sized car pulls up in front of Jill and Joy’s house. Stepping out is the teensy-weensy McTinies family, who has become homeless. The girls invite them to stay temporarily, but soon find out not all big people have good intentions towards the tiny. Fortunately, with the help of their neighbours who are capable of all kinds of magical things, plus the Police Chief and his wife, Jill and Joy have an adventure with a happy ending and get to spend a magical tiny Christmas party.]]></desce>
+    <urlc><![CDATA[http://www.lcsd.gov.hk/fp/zh_TW/web/fpo/programmes/cfs2017/film01.html]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/fp/en_US/web/fpo/programmes/cfs2017/film01.html]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc><![CDATA[現場粵語配音，英文字幕]]></remarkc>
+    <remarke><![CDATA[Live Cantonese dubbing with English subtitles]]></remarke>
+    <enquiry><![CDATA[2734 2900]]></enquiry>
+    <fax />
+    <email />
+    <saledate><![CDATA[2017-11-17 12:11:00.000]]></saledate>
+    <interbook><![CDATA[N]]></interbook>
+    <presenterorgc><![CDATA[康樂及文化事務署主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Leisure and Cultural Services Department]]></presenterorge>
+    <prog_image><![CDATA[http://www.lcsd.gov.hk/crs/images/thumbnail/P88571_1.jpg]]></prog_image>
+    <detail_image1><![CDATA[http://www.lcsd.gov.hk/crs/images/detail/P88571_2.jpg]]></detail_image1>
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-11-17 07:15:48.000]]></submitdate>
+  </event>
+  <event id="87723">
+    <titlec><![CDATA[黑幕《高鐵凶案筆記》]]></titlec>
+    <titlee><![CDATA["Justice on the Occident Express" by Black Curtain]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc6]]></cat2>
+    <predateC><![CDATA[2018年1月12日至13日(五至六) 晚上8:00; 
+2018年1月13日至14日(六至日) 下午3:00]]></predateC>
+    <predateE><![CDATA[12-13 Jan 2018 (Fri-Sat) 8:00pm; 
+13-14 Jan 2018 (Sat-Sun) 3:00pm]]></predateE>
+    <progtimec><![CDATA[2小時]]></progtimec>
+    <progtimee><![CDATA[2hrs]]></progtimee>
+    <venueid><![CDATA[87112562]]></venueid>
+    <agelimitc><![CDATA[6]]></agelimitc>
+    <agelimite><![CDATA[6]]></agelimite>
+    <pricec><![CDATA[$200]]></pricec>
+    <pricee><![CDATA[$200]]></pricee>
+    <descc />
+    <desce />
+    <urlc><![CDATA[http://www.lcsd.gov.hk/tc/programmes/programmeslist/culture/searchcprogdetails.php?id=87723]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/en/programmes/programmeslist/culture/searchcprogdetails.php?id=87723]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc />
+    <remarke />
+    <enquiry><![CDATA[6323 1136]]></enquiry>
+    <fax />
+    <email />
+    <saledate />
+    <interbook><![CDATA[Y]]></interbook>
+    <presenterorgc><![CDATA[黑幕主辦<br>
+鳴謝：康樂及文化事務署]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Black Curtain<br>
+Acknowledgement: Leisure and Culture Services Department]]></presenterorge>
+    <prog_image />
+    <detail_image1 />
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-11-03 10:10:30.000]]></submitdate>
+  </event>
+  <event id="86243">
+    <titlec><![CDATA[《萬世魔星》─ 影評人之選2017]]></titlec>
+    <titlee><![CDATA["Life of Brian" - Critics' Choice 2017]]></titlee>
+    <cat1><![CDATA[inc4]]></cat1>
+    <cat2><![CDATA[inc4sc5]]></cat2>
+    <predateC><![CDATA[2017年12月16日 (六) 下午2:30]]></predateC>
+    <predateE><![CDATA[16 Dec 2017 (Sat) 2:30pm]]></predateE>
+    <progtimec><![CDATA[94分鐘]]></progtimec>
+    <progtimee><![CDATA[94 min]]></progtimee>
+    <venueid><![CDATA[75010017]]></venueid>
+    <agelimitc><![CDATA[只准18歲或以上人士觀看]]></agelimitc>
+    <agelimite><![CDATA[Persons Aged 18 and Above Only]]></agelimite>
+    <pricec><![CDATA[$55]]></pricec>
+    <pricee><![CDATA[$55]]></pricee>
+    <descc><![CDATA[拜恩與耶穌同年同月同日同地，在相鄰的馬槽出生，東方三博士也差點把他當作聖嬰來朝拜……雖有這一切巧合，拜恩依然長成一個平平無奇的猶太青年，在母親與羅馬帝國的威權下苟活，直到他在耶穌登山講道的集會上遇到「猶太人民陣線」的志士，生命才出現轉機。為了巴勒斯坦的自由，更為博紅顏一笑，拜恩步上彌賽亞的道路。英國踎低噴飯劇團打造，一枚充滿聖經傳說、神秘宗教、政治陰謀、天外來客，熱血與正能量極度滿瀉的超級笑蛋。]]></descc>
+    <desce><![CDATA[Brian is born on the same day as Jesus Christ, and just one manger away. The Three Magi nearly confuse Brian with the real Saviour... With such special background Brian grows up to be...an ordinary Jewish young man. Just like all Jews at the time Brian lives under the authoritarian rule of the Romans. Brian would have lived a most ordinary life until he runs into members of the People’s Front of Judea during the Sermon on the Mount. For the freedom of Palestine, and for the girl he adores, Brian takes up the path of the Messiah. Produced and performed by Monty Python, Life of Brian is a full bag of hilarious bitspoking fun at the Bible, political conspiracies, extraterrestrials and positivity.]]></desce>
+    <urlc><![CDATA[http://www.lcsd.gov.hk/fp/zh_TW/web/fpo/programmes/coo/film03.html]]></urlc>
+    <urle><![CDATA[http://www.lcsd.gov.hk/fp/en_US/web/fpo/programmes/coo/film03.html]]></urle>
+    <tagenturlc><![CDATA[http://www.lcsd.gov.hk/tc/ticket/index.html]]></tagenturlc>
+    <tagenturle><![CDATA[http://www.lcsd.gov.hk/en/ticket/index.html]]></tagenturle>
+    <remarkc><![CDATA[2017年12月16日設映後座談會，粵語主講講者：顏志良（宣教師）、 鄭傳鍏]]></remarkc>
+    <remarke><![CDATA[Post-screening seminar with Ngan Chi-leung (Missionary)and Cheng Chuen-wai in Cantonese on 16 Dec 2017]]></remarke>
+    <enquiry><![CDATA[2734 2900]]></enquiry>
+    <fax />
+    <email />
+    <saledate><![CDATA[2017-09-15 12:09:00.000]]></saledate>
+    <interbook><![CDATA[N]]></interbook>
+    <presenterorgc><![CDATA[康樂及文化事務署主辦]]></presenterorgc>
+    <presenterorge><![CDATA[Presented by Leisure and Cultural Services Department]]></presenterorge>
+    <prog_image><![CDATA[http://www.lcsd.gov.hk/crs/images/thumbnail/P86243_1.jpg]]></prog_image>
+    <detail_image1><![CDATA[http://www.lcsd.gov.hk/crs/images/detail/P86243_2.jpg]]></detail_image1>
+    <detail_image2 />
+    <detail_image3 />
+    <detail_image4 />
+    <detail_image5 />
+    <video_link />
+    <video2_link />
+    <my_culture_app><![CDATA[Y]]></my_culture_app>
+    <submitdate><![CDATA[2017-09-29 03:20:56.000]]></submitdate>
+  </event>
 
   <event id="88458">
     <titlec><![CDATA[YONEX-SUNRISE二零一七香港公開羽毛球錦標賽 ， 大都會人壽世界羽聯世界超級賽系列]]></titlec>
@@ -41,6 +491,8 @@
     <my_culture_app />
     <submitdate><![CDATA[2017-11-02 10:55:03.000]]></submitdate>
   </event>
+
+  
   <event id="88460">
     <titlec><![CDATA[YONEX-SUNRISE二零一七香港公開羽毛球錦標賽 ， 大都會人壽世界羽聯世界超級賽系列]]></titlec>
     <titlee><![CDATA[YONEX-SUNRISE HONG KONG OPEN 2017, part of the MetLife BWF World Superseries]]></titlee>

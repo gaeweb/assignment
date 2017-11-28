@@ -1,23 +1,23 @@
-.scrollToTop{box-shadow: 0px 5px 15px rgba(0,0,0,0.3); background-color:black; color:#fff}
-.scrollToTop:hover, .scrollToTop:focus{background-color:#fff; color:black; border-color:1px solid black}
+.scrollToTop{background-color:skyblue; color:#fff}
+.scrollToTop:hover, .scrollToTop:focus{background-color:#fff; color:skyblue; border-color:1px solid skyblue}
 .logo > span{color:skyblue}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{background-color:skyblue}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{background-color:black;}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{background-color:skyblue}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:skyblue}
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:black;}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:skyblue}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:skyblue}
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:black;}
-.latest_newsarea span{background:none repeat scroll 0 0 black}
-.latest_post > h2 span{background: none repeat scroll 0 0 white; border-radius: 25px; color: black;}
-#prev-button{color:black}
-#next-button{color:black}
-.single_post_content > h2 span{background:none repeat scroll 0 0 black}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:skyblue}
+.latest_newsarea span{background:none repeat scroll 0 0 skyblue}
+.latest_post > h2 span{background:none repeat scroll 0 0 skyblue}
+#prev-button{color:skyblue}
+#next-button{color:skyblue}
+.single_post_content > h2 span{background:none repeat scroll 0 0 skyblue}
 .single_sidebar > h2 span{ background:none repeat scroll 0 0 skyblue}
 .bsbig_fig figcaption a:hover{color:skyblue}
 .spost_nav .media-body > a:hover{color:skyblue}
 .cat-item a:hover{background-color:skyblue}
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus{background-color:skyblue}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background-color:black;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background-color:skyblue}
 .single_sidebar > ul > li a:hover{color:skyblue}
 .footer_widget > h2:hover{color:skyblue}
 .tag_nav li a:hover{color:skyblue; border-color:skyblue}
