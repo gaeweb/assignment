@@ -89,7 +89,7 @@ $.get('/p1',{},function (result) {
 
 
 {% for x in events %}
-      <li style="cursor: pointer;">
+      <li style="cursor: pointer;" onclick='ivan_map("{{ x.titlee }}","{{ x.predateE }}","{{ x.submitdate }}","{{ x.presenterorgc }}","{{ x.tagenturlc }}","{{ x.progtimec }}","{{ x.href }}","{{x.pricee}}","{{x.remarkc}}","{{x.remarke}}","{{x.enquiry}}","{{x.desce}}","{{x.presenterorge}}");' style="width: 100%;">
         <!--  -->
         <div class="media" style="cursor: pointer;">
          <!--  <a href="{{x.href}}" class="media-left"> -->
@@ -101,7 +101,7 @@ $.get('/p1',{},function (result) {
               <p style="cursor: pointer;"><b style="font-size: 15px">Title  </b><label style="font-size:13.5px; cursor: pointer; ">{{x.titlee}}</label></p>
              <!--  <p>Dat: {{x.redateC}}</p> -->
               <p style="cursor: pointer;"><b style="font-size: 15px" >Date </b> <label style="font-size:13px; cursor: pointer;">{{x.predateE}}</label></p>
-              <button  onclick='ivan_map("{{ x.titlee }}","{{ x.predateE }}","{{ x.submitdate }}","{{ x.presenterorgc }}","{{ x.tagenturlc }}","{{ x.progtimec }}","{{ x.href }}","{{x.pricee}}","{{x.remarkc}}","{{x.remarke}}","{{x.enquiry}}");'></button>
+              <!-- <button>More</button> -->
             </b>
           </div>
           <hr>
@@ -125,7 +125,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
           <div class="latest_post_container" id="ivan_map" style="overflow: hidden;">          
           </div>
           <script type="text/javascript">
-            function ivan_map(titlee,predateE,submitdate,presenterorgc,tagenturlc,progtimec,href   ,pricee,remarkc,remarke,enquiry) {
+            function ivan_map(titlee,predateE,submitdate,presenterorgc,tagenturlc,progtimec,href   ,pricee,remarkc,remarke,enquiry,desce,presenterorge) {
               // console.log('begin');
               $.get('/InformationPage/',{
               'titlee':titlee
@@ -140,6 +140,9 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
               ,'remarkc':remarkc
               ,'remarke':remarke
               ,'enquiry':enquiry
+
+              ,'desce':desce
+              ,'presenterorge':presenterorge
               },function (result) {
                 // console.log('a');
                 // console.log(result);

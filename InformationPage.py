@@ -22,6 +22,15 @@ class InformationPage(BaseHandler):
 				,'tagenturlc':self.d('tagenturlc')
 				,'progtimec':self.d('progtimec')
 				,'href':self.d('href')
+
+				,'presenterorge':self.d('presenterorge')
+
+				,'pricee':self.d('pricee')
+				,'remarkc':self.d('remarkc')
+				,'remarke':self.d('remarke')
+				,'enquiry':self.d('enquiry')
+
+				,'desce':self.d('desce')
 				})
 		except Exception as e:
 			raise e
