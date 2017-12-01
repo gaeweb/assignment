@@ -10,6 +10,8 @@ handlers:
   upload: favicon\.ico
 
 
+- url: /htdocs
+  static_dir: htdocs
 
 - url: /newsfeed
   static_dir: newsfeed
