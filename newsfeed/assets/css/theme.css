@@ -1,5 +1,5 @@
-.scrollToTop{background-color:skyblue; color:#fff}
-.scrollToTop:hover, .scrollToTop:focus{background-color:#fff; color:skyblue; border-color:1px solid skyblue}
+.scrollToTop{background-color:black; color:white;}
+.scrollToTop:hover, .scrollToTop:focus{background-color:#fff; color:black; border-color:1px solid black; box-shadow: 0px 5px 15px #aaa}
 .logo > span{color:skyblue}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{background-color:skyblue}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{background-color:skyblue}
@@ -7,10 +7,10 @@
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:skyblue}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:skyblue}
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{background-color:skyblue}
-.latest_newsarea span{background:none repeat scroll 0 0 skyblue}
-.latest_post > h2 span{background:none repeat scroll 0 0 skyblue}
-#prev-button{color:skyblue}
-#next-button{color:skyblue}
+.latest_newsarea span{background:none repeat scroll 0 0 black}
+.latest_post > h2 span{background:none repeat scroll 0 0 black}
+#prev-button{color:black; margin-top: 5px;}
+#next-button{color:black;}
 .single_post_content > h2 span{background:none repeat scroll 0 0 skyblue}
 .single_sidebar > h2 span{ background:none repeat scroll 0 0 skyblue}
 .bsbig_fig figcaption a:hover{color:skyblue}

@@ -3,53 +3,127 @@
             text-align: left;
         }
     </style>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <!-- <pre style="background-color: transparent;"> -->
-        <table id="ivan_table_content">
+        <table id="ivan_table_content" style="width: 100%;height: 100%;">
             <tr>
                 <td>
                     <h3>{{ titlee }}</h3>
                 </td>
             </tr>
-            <tr>
+             <tr>
+                
+                <td>
+                    <ul style="list-style: none;">
+              <li style="padding-left: 15px; padding-right: 15px; padding-top: 15px; float: left;">
+                <div id="fb-root"></div>
+                <div class="fb-share-button" data-href="http://www.lcsd.gov.hk/tc/index.html" data-layout="button" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{href}}&amp;src=sdkpreparse">分享</a></div>
+
+              </li>
+
+              <!-- Twitter -->
+              <li class="twitter" style="padding-left: 15px; padding-right: 15px; padding-top: 15px; float: left;">
+                <a href="https://twitter.com/share?ref_src={{href}}" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+         
+              <li class="googleplus" style="padding-left: 15px; padding-right: 15px; padding-top: 15px; float: left;">
+                  <script src="https://apis.google.com/js/platform.js" async defer></script>
+                <g:plus action="share"></g:plus>
+              </li>
+
+
+          </ul></td>
+            </tr>
+            <tr id="predateE">
                 <td>{{ predateE }}</td>
             </tr>
-            <tr>
+            <tr id="submitdate">
                 <td>{{ submitdate }}</td>
             </tr>
-            <tr>
+            <tr id="presenterorgc">
                 <td>{{ presenterorgc }}</td>
             </tr>
-            <tr>
+            <tr id="pricee">
                 <td>{{ pricee }}</td>
             </tr>
-            <tr>
+            <tr id="remarkc">
                 <td>{{ remarkc }}</td>
             </tr>
-            <tr>
+            <tr id="remarke">
                 <td>{{ remarke }}</td>
             </tr>
-            <tr>
+            <tr id="enquiry">
                 <td>{{ enquiry }}</td>
             </tr>
 
-            <tr>
+            <tr id="presenterorge">
                 <td>{{presenterorge}}</td>
             </tr>
-            <tr>
+            <tr id="desce">
                 <td>{{desce}}</td>
             </tr>
-            <tr>
+            <tr id="progtimec">
                 <td>{{ progtimec }}</td>
             </tr>
-            <tr>
+            <tr id="tagenturlc">
                 <td>
-                    <a href="{{ tagenturlc }}" style="color: skyblue;" target="_blank">{{ tagenturlc }}</a>
+                    <a href="{{ tagenturlc }}" style="color: #aaa;" target="_blank">{{ tagenturlc }}</a>
                 </td>
             </tr>
+{% if tagenturlc %}
+
+<!--             <tr>
+                <td>
+                    <ul style="list-style: none;">
+              <li style="padding-left: 15px; padding-right: 15px; padding-top: 15px; float: left;">
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-share-button" data-href="http://www.lcsd.gov.hk/tc/index.html" data-layout="button" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{tagenturlc}}&amp;src=sdkpreparse">分享</a></div>
+              </li>
+
+              <li class="twitter" style="padding-left: 15px; padding-right: 15px; padding-top: 15px; float: left;">
+                <a href="https://twitter.com/share?ref_src={{tagenturlc}}" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+         
+              <li class="googleplus" style="padding-left: 15px; padding-right: 15px; padding-top: 15px; float: left;">
+                  <script src="https://apis.google.com/js/platform.js" async defer></script>
+                <g:plus action="share"></g:plus>
+              </li>
+          </ul></td>
+            </tr> -->
+<!--             <tr>
+                <td>
+                    <h2>QR Code Images</h2>
+                    <img class="qr_code_img" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{tagenturlc}}&bgcolor=ffffff&&color=000000">
+                </td>
+            </tr> -->
+{% endif %}
             <tr>
                 <td>
-                    <a href="{{ href }}" style="color: skyblue;" target="_blank">{{ href }}</a>
+                    <a href="{{ href }}" style="color: #aaa;" target="_blank">{{ href }}</a>
                 </td>
             </tr>
+{% if href %}
+            <tr>
+
+            </tr>
+           
+            <tr>
+                <td>
+                    <!-- <h2>QR Code Images</h2> -->
+                    <img class="qr_code_img" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{href}}&bgcolor=ffffff&&color=000000">
+                </td>
+            </tr>
+{% endif %}
         </table>
     <!-- </pre> -->

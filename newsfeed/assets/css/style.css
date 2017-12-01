@@ -102,11 +102,11 @@ img:hover{opacity:0.75}
 .social_nav li.youtube a:hover{ background-position:-180px 0px; background-size:270px 60px; background-color:#e32114}
 .social_nav li.mail a{ background-image:url("images/socials.png"); background-position:-240px -30px; background-size:270px 60px; width:32px}
 .social_nav li.mail a:hover{background-position:-240px 0px; background-size:270px 60px; background-color:#bc75d6}
-#sliderSection{height: 750px; box-shadow: 0px 5px 15px #aaa;background-color:#fff; display:inline; float:left; width:100%; padding:0 30px}
+#sliderSection{height: 1090px; box-shadow: 0px 5px 15px #aaa;background-color:#fff; display:inline; float:left; width:100%; padding:0 30px}
 .single_iteam{display:inline; float:left; position:relative; width:100%; height:448px}
 .single_iteam img{width:100%; height:100%}
 .single_iteam img:hover{opacity:1}
-.slider_article{ bottom:20px; left:0; position:absolute; right:0; padding:10px 15px}
+.slider_article{ bottom:20px; left:0; position:absolute; right:0; padding:18px 0px}
 .slider_article > h2 a{ background:none repeat scroll 0 0 rgba(0,0,0,0.4); color:#fff; font-size:18px; padding:10px; display:inline-block}
 .slider_article > p{ background:none repeat scroll 0 0 rgba(0,0,0,0.4); color:#fff; padding:3px; display:inline-block}
 .slick-prev:before{ content:""}

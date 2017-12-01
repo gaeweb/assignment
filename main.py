@@ -195,7 +195,8 @@ class MainHandler(BaseHandler):
 
 app = webapp2.WSGIApplication([
 	('/', MainHandler),
-	('/InformationPage/',InformationPage)
+	('/InformationPage/',InformationPage),
+	# ('/autoCompleteMap',autoCompleteMap)
 	# ('/p1', P1),
 	# ('/p_book', p_book),
 	# ('/p3', p3),
