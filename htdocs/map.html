@@ -8,19 +8,16 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 100%;
-        max-width: 394px;
-        max-height: 400px;
+        height: 700px;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
-        height: 100%;
+        h/*eight: 720px;*/
         margin: 0;
         padding: 0;
       }
       .controls {
         margin-top: 10px;
-        border: 1px solid transparent;
         border-radius: 2px 0 0 2px;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -37,8 +34,9 @@
         font-weight: 300;
         margin-left: 12px;
         padding: 0 11px 0 13px;
-        text-overflow: ellipsis;
+       /* text-overflow: ellipsis;*/
         width: 200px;
+        border: none;
       }
 
       #origin-input:focus,
@@ -47,10 +45,10 @@
       }
 
       #mode-selector {
-        color: #fff;
+     /*   color: #fff;
         background-color: #4d90fe;
         margin-left: 12px;
-        padding: 5px 11px 0px 11px;
+        padding: 5px 11px 0px 11px;*/
       }
 
       #mode-selector label {
@@ -62,11 +60,25 @@
     </style>
   </head>
   <body>
-    <input id="origin-input" class="controls" type="text"
-        placeholder="Enter an origin location" value="Mong Kok, Hong Kong">
-
+ 
+<table>
+<tr>
+  <td>  <input id="origin-input" class="controls" type="text"
+        placeholder="Enter an origin location" value="">
+  </td>
+</tr>
+<tr>
+  <td>  
     <input id="destination-input" class="controls" type="text"
-        placeholder="Enter a destination location" value="Central, Hong Kong">
+        placeholder="Enter a destination location" value="">
+  </td>
+</tr>
+<tr>
+  <td>   
+
+  </td>
+</tr>
+</table>
 
     <div id="mode-selector" class="controls">
       <input type="radio" name="type" id="changemode-walking" checked="checked">
@@ -78,6 +90,12 @@
       <input type="radio" name="type" id="changemode-driving">
       <label for="changemode-driving">Driving</label>
     </div>
+  
+      
+
+   
+
+ 
 
     <div id="map"></div>
 
